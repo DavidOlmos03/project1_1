@@ -7,172 +7,25 @@
     <header>
         <meta charset="utf-8">
         <meta name="description" content="This page is for achieve your study goals">
-        <title class="text-center">My web portfolio</title> 
+        <title class="text-center">My web</title> 
     </header>
     
-    <body class="container text-justify">
-        <!--División para el contenido de la página-->      
-                <div class="header container bg-body-secondary border">
-                    <h1 class="display-4">
-                        <div class="text-center" id="Tittle">
-                            My web portfolio
-                        </div>
-                    </h1>
-                        
-                        <div class="text-center" id="description">This web is a presentation about my work and my personal
-                            expereinces in<br> mathematics, physics and software development...</div>
-                           
-                        <!--Creación del menú-->
-                        <div class="menu">
-                            <ul class="nav">
-                                <li><a href="index.html">Inicio</a></li>
-                                <li>
-                                    <a href="">Mathematics</a>
-                                    <ul>
-                                        <li><a href="vectorGeometry.html">Vector Geometry</a></li>
-                                        <li><a href="">Calculus</a></li>
-                                        <li><a href="">Algebra</a></li>
-                                        <li><a href="">Motivation</a></li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="">Physics</a>
-                                    <ul>
-                                        <li><a href="">Motivation</a></li>
-                                    </ul>
-                                </li>
-                                                            
-                                <li>
-                                    <a href="">Programming</a>
-                                    <ul>
-                                        <li><a href="javaPart.html">Java</a></li>
-                                        <li><a href="inforSecPart.html">Informatic segurity</a></li>
-                                        <li><a href="">Programmer blog</a></li>
-                                        <li><a href="">Motivation</a></li>
-                                    </ul>
-                                </li>
-                                <li><a href="">Tutorials</a></li>
-
-                            </ul>
-                        </div>               
-                </div>
+    <body class="container">
+        <!--División para el contenido de la página-->   
+                <div class="header">
+                    <app-header-container></app-header-container>
+                </div>                   
             <!--<div class="page-container">-->    
                 <!--División para el contenido medio de la página-->
                 <div class="curious-box">
-                    <app-lateral-container></app-lateral-container>
-                    <!--
-<ul>
-                        <li>
-                            <img src="C:\Users\Juan David\Documents\ESTUDIOS_1\HTML\Project1\img\sin_and_cos.gif" alt="gif sin and cos" style="float:right" width="300" height="300">
-                            <a>Sin and cos functions</a> 
-                        </li>
-                        <li>
-                            <img src="C:\Users\Juan David\Documents\ESTUDIOS_1\HTML\Project1\img\lagrangeMultipliers.gif" alt="gif lagrange Multipliers" style="float:right" width="300" height="300">
-                            <a>lagrange Multipliers<a> 
-                        </li>
-                        <li>
-                            <img src="C:\Users\Juan David\Documents\ESTUDIOS_1\HTML\Project1\img\rampa_fisica.gif" alt="gif plano inclinado" style="float:right" width="300" height="300">
-                            <a>objects on an inclined plane</a> 
-                        </li>
-                        <li>
-                            <img src="C:\Users\Juan David\Documents\ESTUDIOS_1\HTML\Project1\img\field_physics.gif" alt="gif field physics" style="float:right" width="300" height="300">
-                            <a>some filed in physics</a>
-                        </li>
-                    </ul>
-                    -->
-                            
+                    <app-lateral-container></app-lateral-container>                                      
                 </div>
                 <div class="content-wrap">
-
-                    <!--
-                        <div class="content-math">
-                        <h1 id="tittle-math">What is pure math?</h1>
-                        <p id="content-math">Pure mathematics is the study of mathematical concepts independently of any application outside &nbsp;mathematics.&nbsp; 
-                            These concepts may originate in real-world concerns, and the results obtained may later&nbsp;turn&nbsp; out to be useful for practical applications, 
-                            but pure mathematicians are not primarily motivated&nbsp;by&nbsp; such applications.<br>
-                            <br> 
-                            
-                            Instead, the appeal is attributed to the intellectual challenge and aesthetic beauty of working out the logical consequences of basic principles.
-                            While pure mathematics has existed as an activity since at least Ancient Greece, the concept was elaborated upon around the year 1900,
-                            after the introduction of theories with counter-intuitive properties (such as non-Euclidean geometries and Cantor's theory of infinite sets),
-                            and the discovery of apparent paradoxes (such as continuous functions that are nowhere differentiable, and Russell's paradox).
-                            This introduced the need to renew the concept of mathematical rigor and rewrite all mathematics accordingly, with a systematic use of axiomatic methods.
-                            This led many mathematicians to focus on mathematics for its own sake, that is, pure mathematics.<br>
-                            (Wikipedia definition)
-                            <br>
-                            
-                            <br>
-                            <a href="https://www.youtube.com/watch?v=4N7crqVWNMY&t=1s">Click for a good video about mathematics(Spanish)</a>     
-                        </p>
-                        <h2 id="tittle-math-quotes">
-                            <div class = text-center>Some math qoutes</div>
-                        </h2>
-                        <div id="mathPaulDirac">
-                            It seems to be one of the fundamental features of nature<br>
-                            that fundamental physics laws are described in terms of a<br>
-                            mathematical theory ofgreat beauty andpower, needing quite<br>
-                            a high standard ofmathematics for one understand it. You<br>
-                            may wonde'r: why is nature constructed along these lines?<br>
-                            One can only answer that our present knowledge seems to<br>
-                            show that nature is so constructed. We simply have to accept<br>
-                            it. One could perhaps describe the situation by saying that<br>
-                            Cod is a mathematician of a ver)' high order, and He used<br>
-                            very advanced mathematics in constructing the Universe.<br>
-                            -Paul Dirac                      
-                        </div>
-
-                        <div id="mathAlfredNorthW">
-                            Let us grant that the pursuit ofmathematics<br>
-                            is adivine madness of the human spirit.<br>
-                                            -Alfred North Whitehead
-                        </div>
-                    </div>
-
-            
-                    <div class="content-physics">
-                        <h1 id="tittle-physics">What is the physics?</h1>                   
-                        <p id="content-physics">
-                            Physics is the natural science that studies matter, its fundamental constituents, its motion and behavior through space and time,
-                            and the related entities of energy and force. Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves.<br>
-                            <br>
-                            Physics is one of the oldest academic disciplines and, through its inclusion of astronomy, perhaps the oldest. Over much of the past two millennia, physics, chemistry, biology, and certain branches 
-                            of mathematics were a part of natural philosophy, but during the Scientific Revolution in the 17th century these natural sciences emerged as unique research endeavors in their own right.
-                            Physics intersects with many interdisciplinary areas of research, such as biophysics and quantum chemistry, and the boundaries of physics are not rigidly defined. 
-                            New ideas in physics often explain the fundamental mechanisms studied by other sciences and suggest new avenues of research in these and other academic disciplines such as mathematics and philosophy.<br>
-                            <br>
-                            Advances in physics often enable advances in new technologies. For example, advances in the understanding of electromagnetism, solid-state physics, and nuclear physics led directly to the development of new products 
-                            that have dramatically transformed modern-day society, such as television, computers, domestic appliances, and nuclear weapons; advances in thermodynamics led to the development of industrialization;
-                            and advances in mechanics inspired the development of calculus.
-                            <br>
-                            (Wikipedia definition)
-                        </p>
-
-                    </div> 
-                    -->
                     
                 </div>
                 <!--División para el footer de la página-->
                 <div class="footer-container">
-                    <app-footer-container></app-footer-container>
-                    <!--
-                        <div class="footer">
-                        <div class="footer-heading footer-1">
-                            <h2>services</h2>
-                        </div>
-                        <div class="footer-heading footer-2">
-                            <h2>about me</h2>
-                            <a href="">Our story</a>
-                            <a href="">My work in GitHub</a>
-                            <a href="">Instagram</a>
-                            <a href="">Contact</a>
-                        
-                        </div>
-                        <div class="footer-heading footer-3">
-                            <h1>Send a message</h1>
-                        </div>
-                    </div>
-                    -->
-                    
+                    <app-footer-container></app-footer-container>  
                 </div>
             <!--</div>-->
              

@@ -7,6 +7,7 @@ import { LateralContainerComponent } from './lateral-container/lateral-container
 import { BodyContainerComponent } from './body-container/body-container.component';
 import { ContentWrapContainerComponent } from './content-wrap-container/content-wrap-container.component';
 import { FooterContainerComponent } from './footer-container/footer-container.component';
+import { HeaderContainerComponent } from './header-container/header-container.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FooterContainerComponent } from './footer-container/footer-container.co
     LateralContainerComponent,
     BodyContainerComponent,
     ContentWrapContainerComponent,
-    FooterContainerComponent
+    FooterContainerComponent,
+    HeaderContainerComponent
   ],
   imports: [
     BrowserModule
